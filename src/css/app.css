@@ -1,0 +1,80 @@
+body{
+    height:100vh;
+    overflow-x:hidden;
+    display:flex;
+    justify-content: center;
+   
+}
+
+.application{
+    margin-top:30%;
+}
+.application--main{
+   
+    
+    width:500px;
+    
+}
+.mui-form--inline{
+    margin:20px 20px 0 20px;
+} 
+.mui-textfield{
+    width:100%;
+}
+.content{
+    font-size: 40px;
+    margin:150px;
+    
+}
+.list-group-item{
+    padding:15px 10px;
+    margin:10px;
+    background-color: #d0d0d0;
+    list-style-type:none;
+    border-radius: 10px; 
+    display:flex;
+    justify-content: space-between;
+}
+.list-group-item.completed{
+    text-decoration: line-through;
+}
+.list-group{
+    margin:10px 10px;
+    padding:0;
+}
+
+.app--lists{
+    background-color: #ffffff;
+    margin-top:15px;
+    padding:5px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #a099c7;
+}
+
+
+  .del_button{
+      color:#2196F3;
+      cursor: pointer;
+      
+
+  }
+  .box{
+      margin:5px;
+      text-decoration:none;
+  }
+
+@media (max-width: 576px) { 
+    .mui-textfield{
+        margin-left:10%;
+        width:70%;
+    }
+    .application--main{
+        width:100%;
+    }
+    .content{  
+        margin:0 50px;
+    }
+    .application{
+        width:100%;
+    }
+ }
